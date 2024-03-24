@@ -14,7 +14,7 @@ const Feed = () => {
       setVideos(data.items);
     });
   }, [selectedItem]);
-  return (
+  return ( 
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
       <Box
         sx={{
